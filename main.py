@@ -1,4 +1,3 @@
-import random
 from random import randint
 
 '''
@@ -9,7 +8,7 @@ tryes = tryes-1
 '''
 
 tryes = 3
-randomnumbers = random.randint(0, 10)
+randomnumbers = randint(0, 10)
 userinput = int(input("Write number: "))
 
 while tryes > 1:
